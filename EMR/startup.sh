@@ -15,3 +15,8 @@ sudo yum install -y git
 echo "Installing python dependencies"
 conda activate 
 pip install git+https://github.com/DEIB-GECO/PyGMQL
+conda install -y matplotlib
+conda install -y seaborn
+conda install -y pandas
+conda install -y scipy
+conda install -y numpy
