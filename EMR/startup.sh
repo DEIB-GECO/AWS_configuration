@@ -20,3 +20,9 @@ conda install -y seaborn
 conda install -y pandas
 conda install -y scipy
 conda install -y numpy
+conda install -y jupyterlab
+
+echo "Starting jupyterlab"
+tmux 
+jupyter lab --no-browser --ip 0.0.0.0 --port 10101 --NotebookApp.token='' --NotebookApp.password=''
+tmux detach
